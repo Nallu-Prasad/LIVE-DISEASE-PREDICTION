@@ -18,15 +18,15 @@ st.set_page_config(
 
 
 
-diabetes_model = pickle.load(open('D:\machine learning\diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-Autism_model = pickle.load(open('D:\machine learning\Autism_model.sav','rb'))
+Autism_model = pickle.load(open('Autism_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('D:\machine learning\parkinsons_model (1).sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model (1).sav', 'rb'))
 
-loaded_model = pickle.load(open('D:\machine learning\hospital_recommend.sav', 'rb'))
+loaded_model = pickle.load(open('hospital_recommend.sav', 'rb'))
 
-loaded_model1 = pickle.load(open('D:\machine learning\similarity.sav', 'rb'))
+loaded_model1 = pickle.load(open('similarity.sav', 'rb'))
 
 
 
